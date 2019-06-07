@@ -15,3 +15,8 @@ Notes: One image is consisted of (64, 1, 28, 28). We need to transform this to (
 SoftMax changes the values of your vector to be distributed according to their values and when all are added we will get the answer of 1. Useful for representating probabilities distributed on n outputs.
 
 Probabilities per image should equal to 1.
+
+### Exercise 2.py
+Notes:  The only requirement is that for a network to approximate a non-linear function, the activation functions must be non-linear. Here are a few more examples of common activation functions: Tanh (hyperbolic tangent), and ReLU (rectified linear unit).
+
+There's a built in module for neural networks in PyTorch.

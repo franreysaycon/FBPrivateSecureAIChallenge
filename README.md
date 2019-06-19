@@ -35,3 +35,21 @@ You need to forwarding, loss computing and backpropagation and hopefully minimiz
 We make use of an optimizer to update our weights, specifying a learning rate and by the use of a stochastic gradient descent.
 
 Epoch - number of times you ran the algorithm.
+
+# Part 4
+## Exercise 1
+Fashion Classification exercise
+
+# Part 5
+## Exercise 1
+Neural networks have a tendency to perform too well on the training data and aren't able to generalize to data that hasn't been seen before. this is called overfitting and it impairs inference performance. To test for overfitting while training, we measure the performance on data not in the training set called the validation set. 
+
+## Exercise 2
+Overfitting visualization. The graph shows that loss steadily goes down when you train but validation on test or foreign data shows no sign of a downhill slope. A clear sign of overfitting.
+
+## Exercise 3
+One technique to improve our model that is overfitting is to use dropout. We randomly drop nodes with a defined probability. Making it more flexible towards foreign data and avoid over generalization.
+
+# Part 6
+## Exercise 1
+Saving and Loading Models

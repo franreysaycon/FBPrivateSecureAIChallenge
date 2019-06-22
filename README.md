@@ -53,3 +53,14 @@ One technique to improve our model that is overfitting is to use dropout. We ran
 # Part 6
 ## Exercise 1
 Saving and Loading Models
+
+# Part 7
+## Exercise 1
+A common strategy for training neural networks is to introduce randomness in the input data itself. For example, you can randomly rotate, mirror, scale, and/or crop your images during training. This will help your network generalize as it's seeing the same images but in different locations, with different sizes, in different orientations, etc.
+
+You'll also typically want to normalize images with transforms.Normalize. You pass in a list of means and list of standard deviations, then the color channels are normalized like so
+
+input[channel] = (input[channel] - mean[channel]) / std[channel]
+
+Subtracting mean centers the data around zero and dividing by std squishes the values to be between -1 and 1. Normalizing helps keep the network work weights near zero which in turn makes backpropagation more stable. Without normalization, networks will tend to fail to learn
+

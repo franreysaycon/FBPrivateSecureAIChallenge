@@ -64,3 +64,6 @@ input[channel] = (input[channel] - mean[channel]) / std[channel]
 
 Subtracting mean centers the data around zero and dividing by std squishes the values to be between -1 and 1. Normalizing helps keep the network work weights near zero which in turn makes backpropagation more stable. Without normalization, networks will tend to fail to learn
 
+# Part 8
+## Exercise 1
+Transfer learning is making use of pretrained models to solve problems they weren't train on. A sample is ImageNet, a massive dataset with over 1 million labeled images in 1000 categories. It's used to train deep neural networks using an architecture called convolutional layers. 

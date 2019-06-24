@@ -1,6 +1,6 @@
-# FB Private and Secure AI Challenge
+# Introduction to Pytorch
 
-This is my personal repo in my undertaking of the lessons in my Udacity scholarship.
+This is my personal repo in my undertaking of the lessons in my Udacity scholarship of the fb security ai challenge. This is an introduction to pytorch.
 
 # Part 1
 ### Exercise 1.py
